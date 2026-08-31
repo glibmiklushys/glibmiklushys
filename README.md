@@ -20,10 +20,10 @@ I design and ship production systems — Django products with real billing and u
 
 | Project | Role | What it actually is |
 | --- | --- | --- |
-| **DasHub / BePro** | Founder / engineer | Full marketplace + learning + hiring stack. Profiles, companies, job posting, course/certification flows, analytics, and Stripe-style billing. Private product. |
-| **Tiny Realms** | Solo | 2D RTS on a **deterministic, command-driven sim** (TypeScript + Pixi.js). Fixed-tick loop, AI opponent, architecture already shaped for lockstep multiplayer. |
-| **Client sites** | Engineer | High-converting marketing sites for local businesses (e.g. Kitchener–Waterloo trades). Clean IA, quote funnels, mobile-first. |
-| **GM Web Dev** | Owner | [gm-webdev.com](https://gm-webdev.com) — positioning, services, and intake for web work. |
+| **[Tiny Realms](https://github.com/glibmiklushys/Tinyrealms)** | Solo | 2D RTS on a **deterministic, command-driven sim** (TypeScript + Pixi.js). Fixed 30 Hz tick, seedable RNG, AI that emits the same `Command` type a player does. Built so lockstep multiplayer is a network swap, not a rewrite. |
+| **DasHub / BePro** | Founder / engineer | Talent + company platform: jobs, campaigns, certifications, messaging, analytics, subscriptions. Django + PostgreSQL. Private product. |
+| **Client sites** | Engineer | Conversion-focused marketing sites for local businesses (Kitchener–Waterloo trades). Quote funnels, mobile-first. |
+| **[GM Web Dev](https://gm-webdev.com)** | Owner | Intake and positioning for web work. |
 
 ## How I work
 
