@@ -22,6 +22,7 @@ I design and ship production systems — Django products with real billing and u
 | --- | --- | --- |
 | **[Tiny Realms](https://github.com/glibmiklushys/Tinyrealms)** · [play](https://glibmiklushys.github.io/Tinyrealms/) | Solo | 2D RTS on a **deterministic, command-driven sim** (TypeScript + Pixi.js). Fixed 30 Hz tick, seedable RNG, AI that emits the same `Command` type a player does. Built so lockstep multiplayer is a network swap, not a rewrite. |
 | **[Raftsight](https://github.com/glibmiklushys/raftsight)** · [watch](https://glibmiklushys.github.io/raftsight/) | Solo | Raft consensus you can step: leader election, log matching, majority commit, partitions, crashes. Simulated time so the tests are deterministic. |
+| **[Lumen](https://github.com/glibmiklushys/lumenlang)** | Solo | Small functional language: lexer → Hindley–Milner inference → bytecode stack VM. Polymorphic `id`, recursive `fib`, REPL with `:type`. |
 | **DasHub / BePro** | Founder / engineer | Talent + company platform: jobs, campaigns, certifications, messaging, analytics, subscriptions. Django + PostgreSQL. Private product. |
 | **Client sites** | Engineer | Conversion-focused marketing sites for local businesses (Kitchener–Waterloo trades). Quote funnels, mobile-first. |
 | **[GM Web Dev](https://gm-webdev.com)** | Owner | Intake and positioning for web work. |
