@@ -18,8 +18,6 @@ I design and ship production systems — Django products with real billing and u
 - Building **DasHub** — a talent and company platform: jobs, campaigns, certifications, messaging, and subscriptions on Django + PostgreSQL.
 - Taking selected website work through [GM Web Dev](https://gm-webdev.com) — local businesses that need a fast, conversion-focused site, not a template.
 
-Pin these six on your GitHub profile if they are not already: **Tinyrealms**, **lumenlang**, **raftsight**, **keeldb**, **grainql**, **weft**. That is the first screen a recruiter actually sees.
-
 ## Selected work
 
 | Project | Role | What it actually is |
