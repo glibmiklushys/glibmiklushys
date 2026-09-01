@@ -24,7 +24,7 @@ I design and ship production systems — Django products with real billing and u
 | **[Raftsight](https://github.com/glibmiklushys/raftsight)** · [watch](https://glibmiklushys.github.io/raftsight/) | Solo | Raft consensus you can step: leader election, log matching, majority commit, partitions, crashes. Simulated time so the tests are deterministic. |
 | **[Casksight](https://github.com/glibmiklushys/casksight)** · [watch](https://glibmiklushys.github.io/casksight/) | Solo | Bitcask log you can watch: put/overwrite/delete, index hints, then compact the wasted records. |
 | **[GCsight](https://github.com/glibmiklushys/gcsight)** · [watch](https://glibmiklushys.github.io/gcsight/) | Solo | Mark–sweep heap you can step: allocate, link, mark, sweep, compact. |
-| **[Lumen](https://github.com/glibmiklushys/lumenlang)** | Solo | Small functional language: lexer → Hindley–Milner inference → bytecode stack VM. Polymorphic `id`, recursive `fib`, REPL with `:type`. |
+| **[Lumen](https://github.com/glibmiklushys/lumenlang)** · [play](https://glibmiklushys.github.io/lumenplay/) | Solo | Small functional language: lexer → Hindley–Milner inference → bytecode stack VM. Browser playground steps tokens, types, bytecode, and the stack. |
 | **[GrainQL](https://github.com/glibmiklushys/grainql)** | Solo | In-memory SQL engine: parser, catalog, planner, volcano executor. Joins, `GROUP BY`, aggregates, `ORDER BY`. |
 | **[KeelDB](https://github.com/glibmiklushys/keeldb)** | Solo | Bitcask-style KV in C++20: append-only log, CRC records, crash replay, compaction. |
 | **[Prow](https://github.com/glibmiklushys/prow)** | Solo | HTTP/1.1 static server in C11: sockets, thread pool, path-traversal checks. |
