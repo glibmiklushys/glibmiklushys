@@ -1,20 +1,18 @@
-# Glib Miklushys
+CTO at DasHub.
 
-Software in Kitchener-Waterloo. Most days that is Django and TypeScript. I also write small engines and games when I want to understand a piece of systems work from the inside.
+I build engines, then put a UI on them so you can poke at the guts. RTS sim, language + VM, Raft, a KV store, SQL, a work-stealing runtime.
 
-Building DasHub (private): jobs, campaigns, messaging, subscriptions. Occasional local business sites via [gm-webdev.com](https://gm-webdev.com).
+**Play** · [Tiny Realms](https://glibmiklushys.github.io/Tinyrealms/) · [Lumen](https://glibmiklushys.github.io/lumenplay/) · [Lattice](https://glibmiklushys.github.io/lattice/) · [Apogee](https://glibmiklushys.github.io/apogee/) · [Ricochet](https://glibmiklushys.github.io/ricochet/)
 
-## Projects
+**Watch** · [Raft](https://glibmiklushys.github.io/raftsight/) · [Bitcask](https://glibmiklushys.github.io/casksight/) · [GC](https://glibmiklushys.github.io/gcsight/)
 
-- [Tiny Realms](https://github.com/glibmiklushys/Tinyrealms) ([play](https://glibmiklushys.github.io/Tinyrealms/)) - 2D RTS. Fixed-tick sim, commands as input.
-- [Lumen](https://github.com/glibmiklushys/lumenlang) ([play](https://glibmiklushys.github.io/lumenplay/)) - small language: type inference, bytecode, stack VM.
-- [Raftsight](https://github.com/glibmiklushys/raftsight) ([watch](https://glibmiklushys.github.io/raftsight/)) - Raft you can step.
-- [KeelDB](https://github.com/glibmiklushys/keeldb) - Bitcask-style key/value store in C++20.
-- [GrainQL](https://github.com/glibmiklushys/grainql) - in-memory SQL.
-- [Weft](https://github.com/glibmiklushys/weft) - C++20 work-stealing runtime.
-
-Also: [Lattice](https://github.com/glibmiklushys/lattice) (hex mines), [Apogee](https://github.com/glibmiklushys/apogee) (lander), [Ricochet](https://github.com/glibmiklushys/ricochet) (breakout), [Warren](https://github.com/glibmiklushys/warren) (raycast FPS), [Casksight](https://github.com/glibmiklushys/casksight) / [GCsight](https://github.com/glibmiklushys/gcsight) (storage and GC visualizers), [Prow](https://github.com/glibmiklushys/prow) (tiny C HTTP server).
-
-## Contact
+- [Tiny Realms](https://github.com/glibmiklushys/Tinyrealms) - 2D RTS. Deterministic tick, commands in, AI on the same interface.
+- [Lumen](https://github.com/glibmiklushys/lumenlang) - lexer, Hindley-Milner, bytecode, stack VM.
+- [Raftsight](https://github.com/glibmiklushys/raftsight) - Raft: elections, log matching, partitions, crashes.
+- [KeelDB](https://github.com/glibmiklushys/keeldb) - Bitcask KV in C++20. Append-only log, CRC, compaction.
+- [GrainQL](https://github.com/glibmiklushys/grainql) - SQL engine. Parser, catalog, planner, volcano executor.
+- [Weft](https://github.com/glibmiklushys/weft) - C++20 work-stealing. Steal + help-on-wait.
+- [Prow](https://github.com/glibmiklushys/prow) - HTTP/1.1 in C11.
+- [Warren](https://github.com/glibmiklushys/warren) - raycast FPS, maps are ASCII.
 
 [gm-webdev.com](https://gm-webdev.com)
