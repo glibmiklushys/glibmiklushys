@@ -3,9 +3,11 @@
 # Glib Miklushys
 
 **Full-stack engineer** · Canada  
-I design and ship production systems — Django products with real billing and users, TypeScript clients, and the marketing sites that sit in front of them.
+I design and ship production systems — Django products with real billing and users, TypeScript clients, and engines you can run in the browser.
 
 [gm-webdev.com](https://gm-webdev.com) · [GitHub](https://github.com/glibmiklushys)
+
+**Live** · [Tiny Realms](https://glibmiklushys.github.io/Tinyrealms/) · [Lattice](https://glibmiklushys.github.io/lattice/) · [Apogee](https://glibmiklushys.github.io/apogee/) · [Ricochet](https://glibmiklushys.github.io/ricochet/) · [Raftsight](https://glibmiklushys.github.io/raftsight/) · [Casksight](https://glibmiklushys.github.io/casksight/) · [GCsight](https://glibmiklushys.github.io/gcsight/) · [Lumen](https://glibmiklushys.github.io/lumenplay/)
 
 </div>
 
@@ -16,40 +18,34 @@ I design and ship production systems — Django products with real billing and u
 - Building **DasHub** — a talent and company platform: jobs, campaigns, certifications, messaging, and subscriptions on Django + PostgreSQL.
 - Taking selected website work through [GM Web Dev](https://gm-webdev.com) — local businesses that need a fast, conversion-focused site, not a template.
 
+Pin these six on your GitHub profile if they are not already: **Tinyrealms**, **lumenlang**, **raftsight**, **keeldb**, **grainql**, **weft**. That is the first screen a recruiter actually sees.
+
 ## Selected work
 
 | Project | Role | What it actually is |
 | --- | --- | --- |
 | **[Tiny Realms](https://github.com/glibmiklushys/Tinyrealms)** · [play](https://glibmiklushys.github.io/Tinyrealms/) | Solo | 2D RTS on a **deterministic, command-driven sim** (TypeScript + Pixi.js). Fixed 30 Hz tick, seedable RNG, AI that emits the same `Command` type a player does. Built so lockstep multiplayer is a network swap, not a rewrite. |
+| **[Lumen](https://github.com/glibmiklushys/lumenlang)** · [play](https://glibmiklushys.github.io/lumenplay/) | Solo | Small functional language: lexer → Hindley–Milner inference → bytecode stack VM. Browser playground steps tokens, types, bytecode, and the stack. |
+| **[Raftsight](https://github.com/glibmiklushys/raftsight)** · [watch](https://glibmiklushys.github.io/raftsight/) | Solo | Raft consensus you can step: leader election, log matching, majority commit, partitions, crashes. Simulated time so the tests are deterministic. |
+| **[KeelDB](https://github.com/glibmiklushys/keeldb)** | Solo | Bitcask-style KV in C++20: append-only log, CRC records, crash replay, compaction. |
+| **[GrainQL](https://github.com/glibmiklushys/grainql)** | Solo | In-memory SQL engine: parser, catalog, planner, volcano executor. Joins, `GROUP BY`, aggregates, `ORDER BY`. |
+| **[Weft](https://github.com/glibmiklushys/weft)** | Solo | C++20 work-stealing runtime: workers steal tasks, `wait()` helps so recursive spawn cannot deadlock. |
 | **[Lattice](https://github.com/glibmiklushys/lattice)** · [play](https://glibmiklushys.github.io/lattice/) | Solo | Hexagonal minesweeper. Six neighbors, first click always safe, flood fill on zeros. |
 | **[Apogee](https://github.com/glibmiklushys/apogee)** · [play](https://glibmiklushys.github.io/apogee/) | Solo | 2D lander: rotate, thrust, land slow and upright on gold pads — or hit the rocks. |
 | **[Ricochet](https://github.com/glibmiklushys/ricochet)** · [play](https://glibmiklushys.github.io/ricochet/) | Solo | Breakout with paddle english. Gold and dull bricks, three lives, denser faster levels. |
 | **[Warren](https://github.com/glibmiklushys/warren)** | Solo | Raycast FPS in Python/pygame. Rooms are ASCII maps (`-`/`#` walls, `P` you, `E` enemies). |
-| **[Raftsight](https://github.com/glibmiklushys/raftsight)** · [watch](https://glibmiklushys.github.io/raftsight/) | Solo | Raft consensus you can step: leader election, log matching, majority commit, partitions, crashes. Simulated time so the tests are deterministic. |
 | **[Casksight](https://github.com/glibmiklushys/casksight)** · [watch](https://glibmiklushys.github.io/casksight/) | Solo | Bitcask log you can watch: put/overwrite/delete, index hints, then compact the wasted records. |
 | **[GCsight](https://github.com/glibmiklushys/gcsight)** · [watch](https://glibmiklushys.github.io/gcsight/) | Solo | Mark–sweep heap you can step: allocate, link, mark, sweep, compact. |
-| **[Lumen](https://github.com/glibmiklushys/lumenlang)** · [play](https://glibmiklushys.github.io/lumenplay/) | Solo | Small functional language: lexer → Hindley–Milner inference → bytecode stack VM. Browser playground steps tokens, types, bytecode, and the stack. |
-| **[GrainQL](https://github.com/glibmiklushys/grainql)** | Solo | In-memory SQL engine: parser, catalog, planner, volcano executor. Joins, `GROUP BY`, aggregates, `ORDER BY`. |
-| **[KeelDB](https://github.com/glibmiklushys/keeldb)** | Solo | Bitcask-style KV in C++20: append-only log, CRC records, crash replay, compaction. |
 | **[Prow](https://github.com/glibmiklushys/prow)** | Solo | HTTP/1.1 static server in C11: sockets, thread pool, path-traversal checks. |
-| **[Weft](https://github.com/glibmiklushys/weft)** | Solo | C++20 work-stealing runtime: workers steal tasks, `wait()` helps so recursive spawn cannot deadlock. |
 | **DasHub / BePro** | Founder / engineer | Talent + company platform: jobs, campaigns, certifications, messaging, analytics, subscriptions. Django + PostgreSQL. Private product. |
 | **Client sites** | Engineer | Conversion-focused marketing sites for local businesses (Kitchener–Waterloo trades). Quote funnels, mobile-first. |
 | **[GM Web Dev](https://gm-webdev.com)** | Owner | Intake and positioning for web work. |
 
 ## How I work
 
-I care about systems that stay correct after they ship: clear domain models, migrations you can trust, payments that don’t leak state, and UIs that a stranger can use without a tour.
+I care about systems that stay correct after they ship: clear domain models, migrations you can trust, payments that don’t leak state, and UIs a stranger can use without a tour.
 
-Typical shape of a project I own end-to-end:
-
-```
-product spec → data model → Django apps → payments / auth
-                              ↓
-                     TypeScript / HTML client
-                              ↓
-                     deploy, measure, iterate
-```
+Typical shape of a project I own end-to-end: product spec → data model → Django apps + payments/auth → TypeScript or HTML client → deploy, measure, iterate.
 
 ## Stack
 
