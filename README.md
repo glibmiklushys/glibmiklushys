@@ -22,6 +22,8 @@ I design and ship production systems — Django products with real billing and u
 | --- | --- | --- |
 | **[Tiny Realms](https://github.com/glibmiklushys/Tinyrealms)** · [play](https://glibmiklushys.github.io/Tinyrealms/) | Solo | 2D RTS on a **deterministic, command-driven sim** (TypeScript + Pixi.js). Fixed 30 Hz tick, seedable RNG, AI that emits the same `Command` type a player does. Built so lockstep multiplayer is a network swap, not a rewrite. |
 | **[Lattice](https://github.com/glibmiklushys/lattice)** · [play](https://glibmiklushys.github.io/lattice/) | Solo | Hexagonal minesweeper. Six neighbors, first click always safe, flood fill on zeros. |
+| **[Apogee](https://github.com/glibmiklushys/apogee)** · [play](https://glibmiklushys.github.io/apogee/) | Solo | 2D lander: rotate, thrust, land slow and upright on gold pads — or hit the rocks. |
+| **[Ricochet](https://github.com/glibmiklushys/ricochet)** · [play](https://glibmiklushys.github.io/ricochet/) | Solo | Breakout with paddle english. Gold and dull bricks, three lives, denser faster levels. |
 | **[Raftsight](https://github.com/glibmiklushys/raftsight)** · [watch](https://glibmiklushys.github.io/raftsight/) | Solo | Raft consensus you can step: leader election, log matching, majority commit, partitions, crashes. Simulated time so the tests are deterministic. |
 | **[Casksight](https://github.com/glibmiklushys/casksight)** · [watch](https://glibmiklushys.github.io/casksight/) | Solo | Bitcask log you can watch: put/overwrite/delete, index hints, then compact the wasted records. |
 | **[GCsight](https://github.com/glibmiklushys/gcsight)** · [watch](https://glibmiklushys.github.io/gcsight/) | Solo | Mark–sweep heap you can step: allocate, link, mark, sweep, compact. |
