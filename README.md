@@ -24,6 +24,7 @@ I design and ship production systems — Django products with real billing and u
 | **[Lattice](https://github.com/glibmiklushys/lattice)** · [play](https://glibmiklushys.github.io/lattice/) | Solo | Hexagonal minesweeper. Six neighbors, first click always safe, flood fill on zeros. |
 | **[Apogee](https://github.com/glibmiklushys/apogee)** · [play](https://glibmiklushys.github.io/apogee/) | Solo | 2D lander: rotate, thrust, land slow and upright on gold pads — or hit the rocks. |
 | **[Ricochet](https://github.com/glibmiklushys/ricochet)** · [play](https://glibmiklushys.github.io/ricochet/) | Solo | Breakout with paddle english. Gold and dull bricks, three lives, denser faster levels. |
+| **[Warren](https://github.com/glibmiklushys/warren)** | Solo | Raycast FPS in Python/pygame. Rooms are ASCII maps (`-`/`#` walls, `P` you, `E` enemies). |
 | **[Raftsight](https://github.com/glibmiklushys/raftsight)** · [watch](https://glibmiklushys.github.io/raftsight/) | Solo | Raft consensus you can step: leader election, log matching, majority commit, partitions, crashes. Simulated time so the tests are deterministic. |
 | **[Casksight](https://github.com/glibmiklushys/casksight)** · [watch](https://glibmiklushys.github.io/casksight/) | Solo | Bitcask log you can watch: put/overwrite/delete, index hints, then compact the wasted records. |
 | **[GCsight](https://github.com/glibmiklushys/gcsight)** · [watch](https://glibmiklushys.github.io/gcsight/) | Solo | Mark–sweep heap you can step: allocate, link, mark, sweep, compact. |
