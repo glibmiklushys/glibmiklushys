@@ -1,74 +1,14 @@
-<div align="center">
+CTO at DasHub.
 
-# Glib Miklushys
+**Play** · [Tiny Realms](https://glibmiklushys.github.io/Tinyrealms/) · [Lumen](https://glibmiklushys.github.io/lumenplay/) · [Lattice](https://glibmiklushys.github.io/lattice/) · [Apogee](https://glibmiklushys.github.io/apogee/) · [Ricochet](https://glibmiklushys.github.io/ricochet/)
 
-**Full-stack engineer** · Canada  
-I design and ship production systems — Django products with real billing and users, TypeScript clients, and the marketing sites that sit in front of them.
+**Watch** · [Raft](https://glibmiklushys.github.io/raftsight/) · [Bitcask](https://glibmiklushys.github.io/casksight/) · [GC](https://glibmiklushys.github.io/gcsight/)
 
-[gm-webdev.com](https://gm-webdev.com) · [GitHub](https://github.com/glibmiklushys)
-
-</div>
-
----
-
-## Now
-
-- Building **DasHub** — a talent and company platform: jobs, campaigns, certifications, messaging, and subscriptions on Django + PostgreSQL.
-- Taking selected website work through [GM Web Dev](https://gm-webdev.com) — local businesses that need a fast, conversion-focused site, not a template.
-
-## Selected work
-
-| Project | Role | What it actually is |
-| --- | --- | --- |
-| **[Tiny Realms](https://github.com/glibmiklushys/Tinyrealms)** · [play](https://glibmiklushys.github.io/Tinyrealms/) | Solo | 2D RTS on a **deterministic, command-driven sim** (TypeScript + Pixi.js). Fixed 30 Hz tick, seedable RNG, AI that emits the same `Command` type a player does. Built so lockstep multiplayer is a network swap, not a rewrite. |
-| **[Lattice](https://github.com/glibmiklushys/lattice)** · [play](https://glibmiklushys.github.io/lattice/) | Solo | Hexagonal minesweeper. Six neighbors, first click always safe, flood fill on zeros. |
-| **[Apogee](https://github.com/glibmiklushys/apogee)** · [play](https://glibmiklushys.github.io/apogee/) | Solo | 2D lander: rotate, thrust, land slow and upright on gold pads — or hit the rocks. |
-| **[Ricochet](https://github.com/glibmiklushys/ricochet)** · [play](https://glibmiklushys.github.io/ricochet/) | Solo | Breakout with paddle english. Gold and dull bricks, three lives, denser faster levels. |
-| **[Warren](https://github.com/glibmiklushys/warren)** | Solo | Raycast FPS in Python/pygame. Rooms are ASCII maps (`-`/`#` walls, `P` you, `E` enemies). |
-| **[Raftsight](https://github.com/glibmiklushys/raftsight)** · [watch](https://glibmiklushys.github.io/raftsight/) | Solo | Raft consensus you can step: leader election, log matching, majority commit, partitions, crashes. Simulated time so the tests are deterministic. |
-| **[Casksight](https://github.com/glibmiklushys/casksight)** · [watch](https://glibmiklushys.github.io/casksight/) | Solo | Bitcask log you can watch: put/overwrite/delete, index hints, then compact the wasted records. |
-| **[GCsight](https://github.com/glibmiklushys/gcsight)** · [watch](https://glibmiklushys.github.io/gcsight/) | Solo | Mark–sweep heap you can step: allocate, link, mark, sweep, compact. |
-| **[Lumen](https://github.com/glibmiklushys/lumenlang)** · [play](https://glibmiklushys.github.io/lumenplay/) | Solo | Small functional language: lexer → Hindley–Milner inference → bytecode stack VM. Browser playground steps tokens, types, bytecode, and the stack. |
-| **[GrainQL](https://github.com/glibmiklushys/grainql)** | Solo | In-memory SQL engine: parser, catalog, planner, volcano executor. Joins, `GROUP BY`, aggregates, `ORDER BY`. |
-| **[KeelDB](https://github.com/glibmiklushys/keeldb)** | Solo | Bitcask-style KV in C++20: append-only log, CRC records, crash replay, compaction. |
-| **[Prow](https://github.com/glibmiklushys/prow)** | Solo | HTTP/1.1 static server in C11: sockets, thread pool, path-traversal checks. |
-| **[Weft](https://github.com/glibmiklushys/weft)** | Solo | C++20 work-stealing runtime: workers steal tasks, `wait()` helps so recursive spawn cannot deadlock. |
-| **DasHub / BePro** | Founder / engineer | Talent + company platform: jobs, campaigns, certifications, messaging, analytics, subscriptions. Django + PostgreSQL. Private product. |
-| **Client sites** | Engineer | Conversion-focused marketing sites for local businesses (Kitchener–Waterloo trades). Quote funnels, mobile-first. |
-| **[GM Web Dev](https://gm-webdev.com)** | Owner | Intake and positioning for web work. |
-
-## How I work
-
-I care about systems that stay correct after they ship: clear domain models, migrations you can trust, payments that don’t leak state, and UIs that a stranger can use without a tour.
-
-Typical shape of a project I own end-to-end:
-
-```
-product spec → data model → Django apps → payments / auth
-                              ↓
-                     TypeScript / HTML client
-                              ↓
-                     deploy, measure, iterate
-```
-
-## Stack
-
-**Backend** — Python, Django, PostgreSQL, Redis, Gunicorn, Docker  
-**Systems** — C, C++20, TypeScript VMs and query engines  
-**Frontend** — TypeScript, JavaScript, HTML/CSS, Vite, Pixi.js  
-**Product** — subscriptions, checkout, admin/ops, analytics, SEO-ready sites  
-**Ops** — Git, Linux, Nginx, CI-friendly deploys
-
-```python
-# the kind of problem I like
-# one source of truth, explicit commands, no hidden side effects
-state' = tick(state, commands)
-```
-
-## Contact
-
-- Web: [gm-webdev.com](https://gm-webdev.com)
-- GitHub: [glibmiklushys](https://github.com/glibmiklushys)
-- Location: Canada (Kitchener–Waterloo)
-
-If you want a product built properly — or a site that is supposed to get the phone to ring — write through the site.
+- [Tiny Realms](https://github.com/glibmiklushys/Tinyrealms) — 2D RTS. Deterministic tick, commands in, same API for you and the AI.
+- [Lumen](https://github.com/glibmiklushys/lumenlang) — language: Hindley–Milner, bytecode, stack VM.
+- [Raftsight](https://github.com/glibmiklushys/raftsight) — Raft you can break on purpose.
+- [KeelDB](https://github.com/glibmiklushys/keeldb) — Bitcask KV in C++20.
+- [GrainQL](https://github.com/glibmiklushys/grainql) — SQL engine in TypeScript.
+- [Weft](https://github.com/glibmiklushys/weft) — C++20 work-stealing runtime.
+- [Prow](https://github.com/glibmiklushys/prow) — HTTP/1.1 in C11.
+- [Warren](https://github.com/glibmiklushys/warren) — raycast FPS, maps are ASCII.
