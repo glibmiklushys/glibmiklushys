@@ -22,6 +22,7 @@ I design and ship production systems — Django products with real billing and u
 | --- | --- | --- |
 | **[Tiny Realms](https://github.com/glibmiklushys/Tinyrealms)** · [play](https://glibmiklushys.github.io/Tinyrealms/) | Solo | 2D RTS on a **deterministic, command-driven sim** (TypeScript + Pixi.js). Fixed 30 Hz tick, seedable RNG, AI that emits the same `Command` type a player does. Built so lockstep multiplayer is a network swap, not a rewrite. |
 | **[Raftsight](https://github.com/glibmiklushys/raftsight)** · [watch](https://glibmiklushys.github.io/raftsight/) | Solo | Raft consensus you can step: leader election, log matching, majority commit, partitions, crashes. Simulated time so the tests are deterministic. |
+| **[Casksight](https://github.com/glibmiklushys/casksight)** · [watch](https://glibmiklushys.github.io/casksight/) | Solo | Bitcask log you can watch: put/overwrite/delete, index hints, then compact the wasted records. |
 | **[Lumen](https://github.com/glibmiklushys/lumenlang)** | Solo | Small functional language: lexer → Hindley–Milner inference → bytecode stack VM. Polymorphic `id`, recursive `fib`, REPL with `:type`. |
 | **[GrainQL](https://github.com/glibmiklushys/grainql)** | Solo | In-memory SQL engine: parser, catalog, planner, volcano executor. Joins, `GROUP BY`, aggregates, `ORDER BY`. |
 | **[KeelDB](https://github.com/glibmiklushys/keeldb)** | Solo | Bitcask-style KV in C++20: append-only log, CRC records, crash replay, compaction. |
