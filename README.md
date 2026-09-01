@@ -24,6 +24,7 @@ I design and ship production systems — Django products with real billing and u
 | **[Raftsight](https://github.com/glibmiklushys/raftsight)** · [watch](https://glibmiklushys.github.io/raftsight/) | Solo | Raft consensus you can step: leader election, log matching, majority commit, partitions, crashes. Simulated time so the tests are deterministic. |
 | **[Lumen](https://github.com/glibmiklushys/lumenlang)** | Solo | Small functional language: lexer → Hindley–Milner inference → bytecode stack VM. Polymorphic `id`, recursive `fib`, REPL with `:type`. |
 | **[GrainQL](https://github.com/glibmiklushys/grainql)** | Solo | In-memory SQL engine: parser, catalog, planner, volcano executor. Joins, `GROUP BY`, aggregates, `ORDER BY`. |
+| **[KeelDB](https://github.com/glibmiklushys/keeldb)** | Solo | Bitcask-style KV in C++20: append-only log, CRC records, crash replay, compaction. |
 | **DasHub / BePro** | Founder / engineer | Talent + company platform: jobs, campaigns, certifications, messaging, analytics, subscriptions. Django + PostgreSQL. Private product. |
 | **Client sites** | Engineer | Conversion-focused marketing sites for local businesses (Kitchener–Waterloo trades). Quote funnels, mobile-first. |
 | **[GM Web Dev](https://gm-webdev.com)** | Owner | Intake and positioning for web work. |
@@ -45,6 +46,7 @@ product spec → data model → Django apps → payments / auth
 ## Stack
 
 **Backend** — Python, Django, PostgreSQL, Redis, Gunicorn, Docker  
+**Systems** — C, C++20, TypeScript VMs and query engines  
 **Frontend** — TypeScript, JavaScript, HTML/CSS, Vite, Pixi.js  
 **Product** — subscriptions, checkout, admin/ops, analytics, SEO-ready sites  
 **Ops** — Git, Linux, Nginx, CI-friendly deploys
